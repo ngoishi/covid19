@@ -83,7 +83,7 @@
     "The latest updates": "県内の最新感染動向",
     "If you have any symptoms": "新型コロナウイルス感染症が心配なときに",
     "for Families with children": "お子様をお持ちの皆様へ",
-    "for Citizens": "都民の皆様へ",
+    "for Citizens": "県民の皆様へ",
     "for Enterprises and Employees": "企業の皆様・はたらく皆様へ",
     "Official statements from Task Force": "奈良県新型コロナウイルス感染症対策本部報",
     "Cancelled public events": "奈良県主催等 中止又は延期するイベント等",
