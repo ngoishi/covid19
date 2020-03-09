@@ -180,7 +180,7 @@ export default {
       sumInfoOfPatients,
       headerItem: {
         icon: 'mdi-chart-timeline-variant',
-        title: '都内の最新感染動向',
+        title: '奈良県内の最新感染動向',
         date: Data.lastUpdate
       },
       newsItems: News.newsItems,
