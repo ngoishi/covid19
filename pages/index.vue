@@ -242,7 +242,7 @@ export default {
   },
   head() {
     return {
-      title: '都内の最新感染動向'
+      title: '奈良県内の最新感染動向'
     }
   }
 }
