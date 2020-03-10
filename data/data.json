@@ -2419,11 +2419,11 @@
                       "children": [
                             {
                                 "attr": "入院中",
-                                "value": 44
+                                "value": NaN
                             },
                             {
                                 "attr": "入院調整中",
-                                "value": 9
+                                "value": NaN
                             }
                         ]
                         
