@@ -61,7 +61,7 @@
     "If you have any symptoms": "新型コロナウイルス感染症が心配なときに",
     "for Families with children": "お子様をお持ちの皆様へ",
     "for Citizens": "府民の皆様へ",
-    "for Enterprises and Employees": "企業の皆様・はたらく皆様へ",
+    "for Enterprises and Employees": "はたらく皆様へ（大阪労働局の特別労働相談窓口）",
     "Official statements from Task Force": "大阪府新型コロナウイルス感染症対策本部報",
     "Cancelled public events": "大阪府主催等 中止又は延期するイベント等",
     "Government official website": "大阪府公式ホームページ",
