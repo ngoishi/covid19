@@ -6,7 +6,7 @@
     xmlns="http://www.w3.org/2000/svg"
     role="img"
     :aria-label="
-      ariaLabel(検査実施人数, 陽性物数, 入院中, 軽症中等症, 重症, 死亡, 退院)
+      ariaLabel(検査実施人数, 陽性物数, 入院中等, 入院中, 入院調整中, 死亡, 退院)
     "
   >
     <mask id="path-1-inside-1" fill="white">
@@ -128,6 +128,14 @@
     <text
       class="green text"
       transform="translate(110 100)"
+      :dx="getAdjustX(入院中等)"
+    >
+      <tspan>{{ 入院中等 }}</tspan>
+      <tspan class="unit" dx="-3">人</tspan>
+    </text>
+    <text
+      class="green text"
+      transform="translate(157 100)"
       :dx="getAdjustX(入院中)"
     >
       <tspan>{{ 入院中 }}</tspan>
@@ -135,18 +143,10 @@
     </text>
     <text
       class="green text"
-      transform="translate(157 100)"
-      :dx="getAdjustX(軽症中等症)"
-    >
-      <tspan>{{ 軽症中等症 }}</tspan>
-      <tspan class="unit" dx="-3">人</tspan>
-    </text>
-    <text
-      class="green text"
       transform="translate(207 100)"
-      :dx="getAdjustX(重症)"
+      :dx="getAdjustX(入院調整中)"
     >
-      <tspan>{{ 重症 }}</tspan>
+      <tspan>{{ 入院調整中 }}</tspan>
       <tspan class="unit" dx="-3">人</tspan>
     </text>
     <text
@@ -177,9 +177,9 @@ export default {
   props: [
     '検査実施人数',
     '陽性物数',
+    '入院中等',
     '入院中',
-    '軽症中等症',
-    '重症',
+    '入院調整中',
     '死亡',
     '退院'
   ],
