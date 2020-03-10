@@ -2398,19 +2398,19 @@
     "lastUpdate": "2020\/03\/08 21:00",
     "main_summary": {
         "attr": "検査実施人数",
-        "value": 877,
+        "value": 1001,
         "children": [
             {
                 "attr": "陽性患者数",
-                "value": 41,
+                "value": 55,
                 "children": [
                     {
                         "attr": "入院中等",
-                        "value": 39,
+                        "value": 53,
                       "children": [
                             {
                                 "attr": "入院中",
-                                "value": 30
+                                "value": 44
                             },
                             {
                                 "attr": "入院調整中",
