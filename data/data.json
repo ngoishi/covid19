@@ -2668,11 +2668,11 @@
                         "children": [
                             {
                                 "attr": "入院中",
-                                "value": 30
+                                "value": 
                             },
                             {
                                 "attr": "入院調整中",
-                                "value": 9
+                                "value": 
                             }
                         ]
                     },
