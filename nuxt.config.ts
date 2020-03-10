@@ -51,7 +51,7 @@ const config: Configuration = {
       {
         hid: 'twitter:card',
         name: 'twitter:card',
-        content: 'summary large card'
+        content: 'Summary Card'
       },
       {
         hid: 'twitter:site',
