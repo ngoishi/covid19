@@ -2406,7 +2406,17 @@
                 "children": [
                     {
                         "attr": "入院中等",
-                        "value": 39
+                        "value": 39,
+                      "children": [
+                            {
+                                "attr": "入院中",
+                                "value": 30
+                            },
+                            {
+                                "attr": "入院調整中",
+                                "value": 9
+                            }
+                        ]
                         
                     },
                     {
