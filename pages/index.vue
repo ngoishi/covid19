@@ -109,12 +109,10 @@ export default {
     const metroGraph = MetroData
     // 検査実施日別状況
     const inspectionsGraph = [
-      Data.inspections_summary.data['府内'],
-      Data.inspections_summary.data['その他']
+      Data.inspections_summary.data['府内']
     ]
     const inspectionsItems = [
-      '府内',
-      ''
+      '府内'
     ]
     const inspectionsLabels = Data.inspections_summary.labels
     // 死亡者数
