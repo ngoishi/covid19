@@ -8,9 +8,9 @@
     <whats-new class="mb-4" :items="newsItems" />
     <static-info
       class="mb-4"
-      :url="'/flow'"
+      :url="'http://www.pref.osaka.lg.jp/iryo/osakakansensho/corona-denwa.html'"
       :text="'自分や家族の症状に不安や心配があればまずは電話相談をどうぞ'"
-      :btn-text="'相談の手順を見る'"
+    
     />
     <v-row class="DataBlock">
       <v-col cols="12" md="6" class="DataCard">
