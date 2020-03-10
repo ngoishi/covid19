@@ -215,7 +215,7 @@ export default {
       deceased,
       discharged
     ) {
-      const ariaLabel = `検査陽性者の状況: 検査実施人数は${inspected}人、うち累積の陽性者数は${positive}人です。入院中は${hospitalized}人で、うち軽症・中等症は${mild}人、また重症は${critically}人です。さらに死亡は${deceased}人、退院は${discharged}人です。`
+      const ariaLabel = `検査陽性者の状況: 検査実施人数は${inspected}人、うち累積の陽性者数は${positive}人です。入院中等は${hospitalized}人で、うち入院中は${mild}人、また入院調整中は${critically}人です。さらに死亡は${deceased}人、退院は${discharged}人です。`
       return ariaLabel
     }
   }
