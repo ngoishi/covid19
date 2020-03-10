@@ -38,29 +38,6 @@
         </v-container>
       </v-list>
       <div class="SideNavigation-Footer">
-        <div class="SideNavigation-SocialLinkContainer">
-          <a
-            href="https://line.me/R/ti/p/%40822sysfc"
-            target="_blank"
-            rel="noopener"
-          >
-            <img src="/line.png" alt="LINE" />
-          </a>
-          <a
-            href="https://twitter.com/tokyo_bousai"
-            target="_blank"
-            rel="noopener"
-          >
-            <img src="/twitter.png" alt="Twitter" />
-          </a>
-          <a
-            href="https://www.facebook.com/tochokoho"
-            target="_blank"
-            rel="noopener"
-          >
-            <img src="/facebook.png" alt="Facebook" />
-          </a>
-        </div>
         <small class="SideNavigation-Copyright" lang="en">
           Copyright &copy; 2020 Tokyo Metropolitan Government. All Rights
           Reserved.
@@ -118,13 +95,13 @@ export default {
         {
           icon: 'covid',
           title: this.$t('If you have any symptoms'),
-          link: '/flow',
+          link: 'http://www.pref.osaka.lg.jp/iryo/osakakansensho/corona-denwa.html',
           divider: true
         },
         {
           icon: 'parent',
           title: this.$t('for Families with children'),
-          link: '/parent'
+          link: 'http://www.pref.osaka.lg.jp/kyoikusomu/homepage/kyoiku_kannsensho.html'
         },
         {
           icon: 'mdi-account-multiple',
@@ -134,7 +111,7 @@ export default {
         {
           icon: 'mdi-domain',
           title: this.$t('for Enterprises and Employees'),
-          link: '/worker',
+          link: 'https://jsite.mhlw.go.jp/osaka-roudoukyoku/20200213.html',
           divider: true
         },
         {
@@ -151,10 +128,6 @@ export default {
           title: this.$t('Message from Governor Koike'),
           link:
             'http://www.pref.osaka.lg.jp/iryo/osakakansensho/corona_message.html'
-        },
-        {
-          title: this.$t('About us'),
-          link: '/about'
         },
         {
           title: this.$t('Government official website'),
