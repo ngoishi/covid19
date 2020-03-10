@@ -30,7 +30,7 @@ const config: Configuration = {
       {
         hid: 'og:url',
         property: 'og:url',
-        content: 'https://stopcovid19.metro.tokyo.lg.jp'
+        content: 'https://osaka-prefecture.netlify.com/'
       },
       {
         hid: 'og:title',
@@ -46,7 +46,7 @@ const config: Configuration = {
       {
         hid: 'og:image',
         property: 'og:image',
-        content: 'https://osaka-prefecture.netlify.com/'
+        content: 'https://ngoishi.com/corona.png'
       },
       {
         hid: 'twitter:card',
