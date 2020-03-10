@@ -51,7 +51,7 @@ const config: Configuration = {
       {
         hid: 'twitter:card',
         name: 'twitter:card',
-        content: 'summary_large_image'
+        content: 'https://ngoishi.com/corona.png'
       },
       {
         hid: 'twitter:site',
