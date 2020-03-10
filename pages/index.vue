@@ -113,7 +113,8 @@ export default {
       Data.inspections_summary.data['その他']
     ]
     const inspectionsItems = [
-      '府内発生（疑い例・接触者調査）'
+      '府内',
+      ''
     ]
     const inspectionsLabels = Data.inspections_summary.labels
     // 死亡者数
