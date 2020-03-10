@@ -180,7 +180,7 @@ export default {
       sumInfoOfPatients,
       headerItem: {
         icon: 'mdi-chart-timeline-variant',
-        title: '奈良県内の最新感染動向 (注意！まだ作成中です。データはすべて見本です。)',
+        title: '大阪府内の最新感染動向 (注意！まだ作成中です。データはすべて見本です。)',
         date: Data.lastUpdate
       },
       newsItems: News.newsItems,
@@ -242,7 +242,7 @@ export default {
   },
   head() {
     return {
-      title: '奈良県内の最新感染動向 (注意！まだ作成中です。データはすべて見本です。)'
+      title: '大阪府内の最新感染動向 (注意！まだ作成中です。データはすべて見本です。)'
     }
   }
 }
