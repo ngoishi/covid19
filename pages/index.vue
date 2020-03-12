@@ -111,9 +111,8 @@ export default {
     const inspectionsGraph = [
       Data.inspections_summary.data['府内']
     ]
-    const inspectionsItems = [
-      '府内'
-    ]
+ 
+ 
     const inspectionsLabels = Data.inspections_summary.labels
     // 死亡者数
     // #MEMO: 今後使う可能性あるので一時コメントアウト
