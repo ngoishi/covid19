@@ -111,7 +111,7 @@ export default {
               data: this.chartData.map(d => {
                 return d.transition
               }),
-              backgroundColor: '#00B849',
+              backgroundColor: '#FF9999',
               borderWidth: 0
             }
           ]
@@ -127,7 +127,7 @@ export default {
             data: this.chartData.map(d => {
               return d.cumulative
             }),
-            backgroundColor: '#00B849',
+            backgroundColor: '#FF9999',
             borderWidth: 0
           }
         ]
@@ -137,7 +137,7 @@ export default {
       const unit = this.unit
       return {
         tooltips: {
-          displayColors: '#FF9999',
+          displayColors: false,
           callbacks: {
             label(tooltipItem) {
               const labelText =
