@@ -109,10 +109,12 @@ export default {
     const metroGraph = MetroData
     // 検査実施日別状況
     const inspectionsGraph = [
-      Data.inspections_summary.data['府内']
+     　Data.inspections_summary.data['府内'],
+      Data.inspections_summary.data['']
     ]
      const inspectionsItems = [
       this.$t('府内'),
+      this.$t(''),
     ]
  
     const inspectionsLabels = Data.inspections_summary.labels
