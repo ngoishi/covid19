@@ -139,7 +139,7 @@ export default {
         },
          {
           title: this.$t('Hokkaido'),
-          link: https://stopcovid19.hokkaido.dev/',
+          link: 'https://stopcovid19.hokkaido.dev/',
           divider: true
         },
          {
