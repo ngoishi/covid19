@@ -111,7 +111,7 @@ export default {
               data: this.chartData.map(d => {
                 return d.transition
               }),
-              backgroundColor: '#FF00BF',
+              backgroundColor: '#FF9999',
               borderWidth: 0
             }
           ]
