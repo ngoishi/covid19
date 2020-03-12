@@ -139,18 +139,15 @@ export default {
         },
          {
           title: this.$t('Hokkaido'),
-          link: 'https://stopcovid19.hokkaido.dev/',
-          divider: true
+          link: 'https://stopcovid19.hokkaido.dev/'
         },
          {
           title: this.$t('Tokyoto'),
-          link: 'https://stopcovid19.metro.tokyo.lg.jp/',
-          divider: true
+          link: 'https://stopcovid19.metro.tokyo.lg.jp/'
         },
           {
           title: this.$t('Kanagawa'),
-          link: 'https://www.pref.kanagawa.jp/osirase/1369/',
-          divider: true
+          link: 'https://www.pref.kanagawa.jp/osirase/1369/'
         }
 
       ]
