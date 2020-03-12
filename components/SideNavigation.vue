@@ -66,6 +66,9 @@
     "Cancelled public events": "大阪府主催等 中止又は延期するイベント等",
     "Government official website": "大阪府公式ホームページ",
     "Message from Governor Koike": "知事からのメッセージ",
+    "Tokyoto": "東京都の最新感染動向",
+    "Hokkaido": "北海道の最新感染動向",
+    "Kanagawa": "神奈川県の最新感染動向",
     "About us": "当サイトについて"
   }
 }
@@ -133,7 +136,23 @@ export default {
           title: this.$t('Government official website'),
           link: 'http://www.pref.osaka.lg.jp/',
           divider: true
+        },
+         {
+          title: this.$t('Hokkaido'),
+          link: https://stopcovid19.hokkaido.dev/',
+          divider: true
+        },
+         {
+          title: this.$t('Tokyoto'),
+          link: 'https://stopcovid19.metro.tokyo.lg.jp/',
+          divider: true
+        },
+          {
+          title: this.$t('Kanagawa'),
+          link: 'https://www.pref.kanagawa.jp/osirase/1369/',
+          divider: true
         }
+
       ]
     },
     isClass() {
