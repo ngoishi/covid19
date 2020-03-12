@@ -55,7 +55,6 @@
           :chart-id="'time-stacked-bar-chart-inspections'"
           :chart-data="inspectionsGraph"
           :date="Data.inspections_summary.date"
-          :items="inspectionsItems"
           :labels="inspectionsLabels"
           :unit="'件'"
         />
