@@ -109,7 +109,7 @@ export default {
     // 検査実施日別状況
     const inspectionsGraph = [
      　Data.inspections_summary.data['府内'],
-      Data.inspections_summary.data['']
+      Data.inspections_summary.data['その他']
     ]
      const inspectionsItems = [
      '府内発生'
