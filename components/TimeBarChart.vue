@@ -137,7 +137,7 @@ export default {
       const unit = this.unit
       return {
         tooltips: {
-          displayColors: false,
+          displayColors: '#FF9999',
           callbacks: {
             label(tooltipItem) {
               const labelText =
