@@ -141,7 +141,6 @@ export default {
       querentsGraph,
       metroGraph,
       inspectionsGraph,
-      inspectionsItems,
       inspectionsLabels,
       confirmedCases,
       sumInfoOfPatients,
