@@ -153,7 +153,7 @@ export default {
       metroGraphOption: {
         responsive: true,
         legend: {
-          display: true
+          display: false
         },
         scales: {
           xAxes: [
