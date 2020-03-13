@@ -1,5 +1,9 @@
 <template>
   <div class="MainPage">
+     <static-info
+      class="mb-4"
+      :text="'このホームページは個人で作成されたものです。大阪府の作成ではございません。'"
+    />
     <page-header
       :icon="headerItem.icon"
       :title="headerItem.title"
@@ -10,7 +14,6 @@
       class="mb-4"
       :url="'http://www.pref.osaka.lg.jp/iryo/osakakansensho/corona-denwa.html'"
       :text="'自分や家族の症状に不安や心配があればまずは電話相談をどうぞ'"
-    
     />
     <v-row class="DataBlock">
       <v-col cols="12" md="6" class="DataCard">
