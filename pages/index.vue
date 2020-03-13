@@ -7,7 +7,7 @@
     />
     <static-info
       class="mb-4"
-      text="このホームページは個人が作成したものです。大阪府が作成したものではありません。"/>
+      title="このホームページは個人が作成したものです。大阪府が作成したものではありません。"/>
     <whats-new class="mb-4" :items="newsItems" />
     <static-info
       class="mb-4"
