@@ -23,19 +23,6 @@
         </svg-card>
       </v-col>
       <v-col cols="12" md="6" class="DataCard">
-        <time-bar-chart
-          title="陽性患者数"
-          :title-id="'number-of-confirmed-cases'"
-          :chart-id="'time-bar-chart-patients'"
-          :chart-data="patientsGraph"
-          :date="Data.patients.date"
-          :unit="'人'"
-          :url="
-            'https://catalog.data.metro.tokyo.lg.jp/dataset/t000010d0000000068'
-          "
-        />
-      </v-col>
-      <v-col cols="12" md="6" class="DataCard">
         <data-table
           :title="'陽性患者の属性'"
           :title-id="'attributes-of-confirmed-cases'"
@@ -47,7 +34,7 @@
             'https://catalog.data.metro.tokyo.lg.jp/dataset/t000010d0000000068'
           "
         />
-      </v-col>
+      </v-col>    
       <v-col cols="12" md="6" class="DataCard">
         <time-stacked-bar-chart
           title="検査実施数"
@@ -57,6 +44,19 @@
           :date="Data.inspections_summary.date"
           :labels="inspectionsLabels"
           :unit="'件'"
+        />
+      </v-col>      
+      <v-col cols="12" md="6" class="DataCard">
+        <time-bar-chart
+          title="陽性患者数"
+          :title-id="'number-of-confirmed-cases'"
+          :chart-id="'time-bar-chart-patients'"
+          :chart-data="patientsGraph"
+          :date="Data.patients.date"
+          :unit="'人'"
+          :url="
+            'https://catalog.data.metro.tokyo.lg.jp/dataset/t000010d0000000068'
+          "
         />
       </v-col>
    <v-col cols="12" md="6" class="DataCard">
