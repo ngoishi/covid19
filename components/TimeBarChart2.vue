@@ -229,7 +229,8 @@ export default {
               ticks: {
                 suggestedMin: 0,
                 maxTicksLimit: 8,
-                fontColor: '#808080'
+                fontColor: '#808080',
+                stepSize: 1
               }
             }
           ]
