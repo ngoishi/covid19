@@ -42,7 +42,7 @@ export default {
     chartId: {
       type: String,
       required: false,
-      default: 'time-bar-chart'
+      default: 'time-bar-chart2'
     },
     chartData: {
       type: Array,
