@@ -69,6 +69,7 @@
     "Tokyoto": "東京都の最新感染動向",
     "Hokkaido": "北海道の最新感染動向",
     "Kanagawa": "神奈川県の最新感染動向",
+    "Aichi": "愛知県の最新感染動向",
     "About us": "当サイトについて"
   }
 }
@@ -148,6 +149,10 @@ export default {
           {
           title: this.$t('Kanagawa'),
           link: 'https://www.pref.kanagawa.jp/osirase/1369/'
+        },
+          {
+          title: this.$t('Aichi'),
+          link: 'https://stopcovid19.code4.nagoya/'
         }
 
       ]
