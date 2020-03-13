@@ -60,7 +60,7 @@
         />
       </v-col>
    <v-col cols="12" md="6" class="DataCard">
-        <time-bar-chart
+        <time-bar-chart2
           title="退院者数"
           :title-id="'number-of-discharges-cases'"
           :chart-id="'time-bar-chart-discharges'"
