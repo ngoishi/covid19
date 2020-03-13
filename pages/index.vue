@@ -59,6 +59,7 @@
           :unit="'件'"
         />
       </v-col>
+   <v-col cols="12" md="6" class="DataCard">
         <time-bar-chart
           title="退院者数"
           :title-id="'number-of-discharges-cases'"
@@ -78,6 +79,7 @@
 <script>
 import PageHeader from '@/components/PageHeader.vue'
 import TimeBarChart from '@/components/TimeBarChart.vue'
+import TimeBarChart2 from '@/components/TimeBarChart2.vue'
 import MetroBarChart from '@/components/MetroBarChart.vue'
 import TimeStackedBarChart from '@/components/TimeStackedBarChart.vue'
 import WhatsNew from '@/components/WhatsNew.vue'
@@ -96,6 +98,7 @@ export default {
   components: {
     PageHeader,
     TimeBarChart,
+    TimeBarChart2,
     MetroBarChart,
     TimeStackedBarChart,
     WhatsNew,
