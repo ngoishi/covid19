@@ -59,6 +59,18 @@
           :unit="'件'"
         />
       </v-col>
+        <time-bar-chart
+          title="退院者数"
+          :title-id="'number-of-discharges-cases'"
+          :chart-id="'time-bar-chart-discharges'"
+          :chart-data="dischargesGraph"
+          :date="Data.discharges_summary.date"
+          :unit="'人'"
+          :url="
+            'https://catalog.data.metro.tokyo.lg.jp/dataset/t000010d0000000068'
+          "
+        />
+      </v-col>
     </v-row>
   </div>
 </template>
