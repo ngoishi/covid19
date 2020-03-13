@@ -5,7 +5,7 @@
       :title="headerItem.title"
       :date="headerItem.date"
     />
-    <h5>このホームページは個人が作成したものです。大阪府が作成したものではありません</h5>
+    <h5>このホームページは個人が作成したものです。大阪府が作成したものではありません</h5><br>
     <whats-new class="mb-4" :items="newsItems" />
     <static-info
       class="mb-4"
